@@ -1,0 +1,15 @@
+SET suhu WITH value X
+
+IF suhu<=26 
+    DISPLAY "Tidak menggunakan AC"
+
+ELSE IF 26<suhu<=28
+    DISPLAY "Menggunakan Kipas tangan"
+
+ELSE IF 28<suhu<=30
+    DISPLAY "Menggunakan kipas angin"
+
+ELSE
+    DISPLAY "Menggunakan AC"
+
+ENDIF
